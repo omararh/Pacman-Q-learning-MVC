@@ -5,10 +5,9 @@ Q-learning, and Deep Q-learning. Each strategy requires developing and testing a
 enhance the game's performance across different levels and modes.
 
 
-### Learning Objectives and Tasks
+## Learning Objectives and Tasks
 
 Each reinforcement learning strategy implemented in this project aims to optimize the decision-making process in the Pacman game, improving the efficiency and intelligence of the agent:
-
 ##### Tabular Q-learning: 
 Focuses on creating a simple look-up table to store and retrieve values for each state-action pair.  
 ##### Approximate Q-learning:
