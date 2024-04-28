@@ -16,3 +16,13 @@ Uses weighted features to estimate Q-values, reducing the dimensionality and pot
 Integrates neural networks to approximate Q-values, providing a powerful way to handle complex scenarios with high state space.  
 ##### Deep Q-learning: 
 Extends neural network capabilities to directly learn the optimal policies over raw game states, aiming for high performance in complex levels.  
+
+
+## Design Patterns Used
+
+To maintain a clean and manageable codebase, the project employs several design patterns:
+
+Factory Pattern: Used to create objects without specifying the exact class of object that will be created. This is particularly useful for creating different learning strategies dynamically.  
+Repository Pattern: Facilitates a separation between the data layer and the business logic, ensuring that the game's state management is decoupled from the learning algorithms.  
+Strategy Pattern: Enables the dynamic switching between different learning algorithms during runtime, allowing the game to adapt its strategy based on performance.  
+Observer Pattern: Implemented to efficiently update the game's state in response to player actions or game events, ensuring real-time responsiveness without tight coupling between the game's components.  
