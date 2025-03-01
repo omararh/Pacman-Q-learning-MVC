@@ -1,4 +1,6 @@
 ## Introduction
+Q-learning is a model-free reinforcement learning algorithm that enables an agent to learn the optimal action-selection policy in a Markov decision process by iteratively updating a value function (Q-table) that estimates the expected future rewards for taking specific actions in different states, without requiring a prior knowledge of the environment's dynamics.
+
 This project involves implementing various reinforcement learning strategies for the 
 Pacman game, including Tabular Q-learning, Approximate Q-learning, neural network-guided 
 Q-learning, and Deep Q-learning. Each strategy requires developing and testing algorithms to 
